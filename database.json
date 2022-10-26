@@ -1,0 +1,47 @@
+{
+    "users": [
+        {
+         "id": 1,
+         "firstName": "Killian",
+         "lastName": "Huntington III",
+         "email": "River_Torp@hotmail.com"
+        }
+    ],
+    "trips": [
+        {
+        "id": 1, 
+        "userId": 1,
+        "date": "10/26/2022", 
+        "numberOfGuests": 1,
+        "killId": 1, 
+        "serviceId": 1, 
+        "trophyId": 1
+        }
+    ],
+    "kills":[
+        {
+        "id": 1, 
+        "type": "Adult",
+        "price": 8000.00
+        }
+    ],
+    "services": [
+        {
+        "id": 1, 
+        "type": "Basic",
+        "price": 1000.00
+        }
+    ],
+    "trophies": [
+        {
+        "id": 1, 
+        "userId": 1, 
+        "type": "Horn",
+        "price": 300.00
+        }
+    ]
+
+        
+        
+
+}

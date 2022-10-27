@@ -4,7 +4,8 @@
          "id": 1,
          "firstName": "Killian",
          "lastName": "Huntington III",
-         "email": "River_Torp@hotmail.com"
+         "email": "River_Torp@hotmail.com",
+         "isMember": true 
         }
     ],
     "trips": [
@@ -34,14 +35,34 @@
     ],
     "trophies": [
         {
-        "id": 1, 
-        "userId": 1, 
+        "id": 1,          
         "type": "Horn",
         "price": 300.00
-        }
-    ]
-
-        
-        
-
+        },
+        {
+        "id": 2,
+        "type": "Taxidermy",
+        "price": 5000.00
+        },
+        {
+        "id": 3,        
+        "type": "Satchel",
+        "price": 800.00
+        },
+        {
+        "id": 4,          
+        "type": "Hoof Ash Tray",
+        "price": 200.00
+        },
+        {
+        "id": 5,       
+        "type": "Unicorn Hair Bracelet",
+        "price": 100.00
+         },
+         {
+        "id": 6,  
+        "type": "Tear Vile Necklace",
+        "price": 300.00
+        }       
+     ]
 }

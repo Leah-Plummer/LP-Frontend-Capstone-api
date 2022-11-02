@@ -1,78 +1,135 @@
 {
-    "users": [
-        {
-            "id": 1,
-            "firstName": "quarryian",
-            "lastName": "Huntington III",
-            "email": "River_Torp@hotmail.com",
-            "isMember": true 
-        }
-    ],
-    "trips": [
-        {
-            "id": 1, 
-            "userId": 1,
-            "date": "10/26/2022", 
-            "numberOfGuests": 1,
-            "quarryId": 1, 
-            "serviceId": 1, 
-            "trophyId": 1
-        }
-    ],
-    "quarries":[
-        {
-            "id": 1, 
-            "type": "Adult",
-            "price": 8000.00
-        },
-        {
-            "id": 2, 
-            "type": "Youth",
-            "price": 10000.00
-        },
-        {
-            "id": 3, 
-            "type": "Combo",
-            "price": 20000.00
-        }
-    ],
-    "services": [
-        {
-            "id": 1, 
-            "type": "Basic",
-            "price": 1000.00
-        }
-    ],
-    "trophies": [
-        {
-            "id": 1,          
-            "type": "Horn",
-            "price": 300.00
-        },
-        {
-            "id": 2,
-            "type": "Taxidermy",
-            "price": 5000.00
-        },
-        {
-            "id": 3,        
-            "type": "Satchel",
-            "price": 800.00
-        },
-        {
-            "id": 4,          
-            "type": "Hoof Ash Tray",
-            "price": 200.00
-        },
-        {
-            "id": 5,       
-            "type": "Unicorn Hair Bracelet",
-            "price": 100.00
-         },
-         {
-            "id": 6,  
-            "type": "Tear Vile Necklace",
-            "price": 300.00
-        } 
-     ]
+  "users": [
+    {
+      "id": 1,
+      "firstName": "Killian",
+      "lastName": "Huntington III",
+      "email": "River_Torp@hotmail.com",
+      "isMember": true
+    },
+    {
+      "id": 2,
+      "firstName": "Shmillian",
+      "lastName": "Huntington III",
+      "email": "Creek_Torp@hotmail.com",
+      "isMember": true
+    }
+  ],
+  "trips": [
+    {
+      "userId": 1,
+      "date": "10/29/2022",
+      "numberOfGuests": "5",
+      "quarryId": 2,
+      "serviceId": 1,
+      "trophyId": 1,
+      "id": 1,
+      "quarry": {
+        "id": 2,
+        "type": "Youth",
+        "price": 10000
+      },
+      "trophy": {
+        "id": 2,
+        "type": "Taxidermy",
+        "price": 5000
+      },
+      "service": {
+        "id": 1,
+        "type": "Basic",
+        "price": 1000
+      }
+    },
+    {
+      "userId": 2,
+      "date": "10/27/2022",
+      "numberOfGuests": "9",
+      "quarryId": 2,
+      "serviceId": 1,
+      "trophyId": 4,
+      "id": 2
+    },
+    {
+      "userId": 1,
+      "date": "10/31/2022",
+      "numberOfGuests": "4",
+      "quarryId": 2,
+      "serviceId": 1,
+      "trophyId": 1,
+      "id": 3
+    }
+  ],
+  "quarries": [
+    {
+      "id": 1,
+      "type": "Adult",
+      "price": 8000
+    },
+    {
+      "id": 2,
+      "type": "Youth",
+      "price": 10000
+    },
+    {
+      "id": 3,
+      "type": "Combo",
+      "price": 20000
+    }
+  ],
+  "services": [
+    {
+      "id": 1,
+      "type": "Basic",
+      "price": 1000
+    },
+    {
+      "id": 2,
+      "type": "Extra",
+      "price": 2000
+    },
+    {
+      "id": 3,
+      "type": "Premium",
+      "price": 3000
+    }
+  ],
+  "trophies": [
+    {
+      "id": 1,
+      "type": "Horn",
+      "price": 300,
+      "image": "Science_tusk_102728017.webp" 
+    },
+    {
+      "id": 2,
+      "type": "Taxidermy",
+      "price": 5000,
+      "image": "taxidermyAdult.jpg",
+      "image2": "taxidermyYouth.jpg"
+    },
+    {
+      "id": 3,
+      "type": "Satchel",
+      "price": 800,
+      "image": "satchel.jpg"
+    },
+    {
+      "id": 4,
+      "type": "Hoof Ash Tray",
+      "price": 200,
+      "image": "hoofAshtray.jpg"
+    },
+    {
+      "id": 5,
+      "type": "Unicorn Hair Bracelet",
+      "price": 100,
+      "image": "horseHairBracelet.jpg"
+    },
+    {
+      "id": 6,
+      "type": "Tear Vile Necklace",
+      "price": 300,
+      "image": "tearsVile.jpeg"
+    }
+  ]
 }

@@ -41,15 +41,6 @@
       }
     },
     {
-      "userId": 2,
-      "date": "10/27/2022",
-      "numberOfGuests": "9",
-      "quarryId": 2,
-      "serviceId": 1,
-      "trophyId": 4,
-      "id": 2
-    },
-    {
       "userId": 1,
       "date": "10/31/2022",
       "numberOfGuests": "4",
@@ -57,6 +48,84 @@
       "serviceId": 1,
       "trophyId": 1,
       "id": 3
+    },
+    {
+      "userId": 2,
+      "date": "10/27/2022",
+      "numberOfGuests": "18",
+      "quarryId": 1,
+      "serviceId": 2,
+      "trophyId": 3,
+      "id": 4,
+      "quarry": {
+        "id": 1,
+        "type": "Adult",
+        "price": 8000
+      },
+      "trophy": {
+        "id": 3,
+        "type": "Satchel",
+        "price": 800,
+        "image": "satchel.jpg"
+      },
+      "service": {
+        "id": 2,
+        "type": "Extra",
+        "price": 2000
+      }
+    },
+    {
+      "userId": 2,
+      "date": "11/9/2022",
+      "numberOfGuests": "8",
+      "quarryId": 3,
+      "serviceId": 1,
+      "trophyId": 2,
+      "id": 5,
+      "quarry": {
+        "id": 3,
+        "type": "Combo",
+        "price": 20000
+      },
+      "trophy": {
+        "id": 2,
+        "type": "Taxidermy",
+        "price": 5000,
+        "image": "taxidermyAdult.jpg",
+        "image2": "taxidermyYouth.jpg"
+      },
+      "service": {
+        "id": 1,
+        "type": "Basic",
+        "price": 1000
+      }
+    },
+    {
+      "userId": 2,
+      "date": "10/29/2022",
+      "numberOfGuests": "6",
+      "quarryId": 2,
+      "serviceId": 1,
+      "trophyId": 4,
+      "id": 6
+    },
+    {
+      "userId": 1,
+      "date": "10/29/2022",
+      "numberOfGuests": "4",
+      "quarryId": 2,
+      "serviceId": 1,
+      "trophyId": 6,
+      "id": 7
+    },
+    {
+      "userId": 1,
+      "date": "10/27/2022",
+      "numberOfGuests": "1000000000000000000",
+      "quarryId": 2,
+      "serviceId": 1,
+      "trophyId": 3,
+      "id": 8
     }
   ],
   "quarries": [
@@ -80,55 +149,59 @@
     {
       "id": 1,
       "type": "Basic",
-      "price": 1000
+      "price": 2000
     },
     {
       "id": 2,
       "type": "Extra",
-      "price": 2000
+      "price": 3000
     },
     {
       "id": 3,
       "type": "Premium",
-      "price": 3000
-    }
+      "price": 5000
+    },
+    {
+    "id": 4, 
+    "type": "Drone Strike",
+    "price": 6000
+  }
   ],
   "trophies": [
     {
       "id": 1,
       "type": "Horn",
-      "price": 300,
-      "image": "Science_tusk_102728017.webp" 
+      "price": 1500,
+      "image": "Science_tusk_102728017.webp"
     },
     {
       "id": 2,
       "type": "Taxidermy",
-      "price": 5000,
-      "image": "taxidermyAdult.jpg",
-      "image2": "taxidermyYouth.jpg"
+      "price": 10000,
+      "image": "taxidermyYouth.jpg"
     },
     {
       "id": 3,
       "type": "Satchel",
-      "price": 800,
+      "price": 2000,
       "image": "satchel.jpg"
     },
     {
       "id": 4,
       "type": "Hoof Ash Tray",
-      "price": 200,
+      "price": 1000,
       "image": "hoofAshtray.jpg"
     },
     {
       "id": 5,
       "type": "Unicorn Hair Bracelet",
-      "price": 100,
+      "price": 500,
       "image": "horseHairBracelet.jpg"
     },
     {
       "id": 6,
       "type": "Tear Vile Necklace",
-      "price": 300,
+      "price": 1500,
       "image": "tearsVile.jpeg"
     }
   ]
